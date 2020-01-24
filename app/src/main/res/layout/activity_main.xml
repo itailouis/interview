@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="company name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="company reg"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="company year"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="company list of directors"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="salutation"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nid"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Name"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ListView
+        android:layout_width="190dp"
+        android:layout_height="32dp"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <ListView
+        android:layout_width="173dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <ListView
+        android:layout_width="206dp"
+        android:layout_height="37dp"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <ListView
+        android:layout_width="221dp"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <ListView
+        android:layout_width="242dp"
+        android:layout_height="21dp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <ListView
+        android:layout_width="202dp"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
